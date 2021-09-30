@@ -1,0 +1,94 @@
+{
+  "uid" : "ca8c8429213a973e",
+  "name" : "Verify deleting a user",
+  "fullName" : "DELETE test:.Verify deleting a user",
+  "historyId" : "677d41220e3c08889bd2a443d1b1b448",
+  "time" : {
+    "start" : 1633031407991,
+    "stop" : 1633031410576,
+    "duration" : 2585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send delete request \"/24\"",
+      "time" : {
+        "start" : 1633031407999,
+        "stop" : 1633031410575,
+        "duration" : 2576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 200, 200",
+      "time" : {
+        "start" : 1633031410576,
+        "stop" : 1633031410576,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DELETE test:"
+  }, {
+    "name" : "testClass",
+    "value" : "DELETE test:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify deleting a user"
+  }, {
+    "name" : "package",
+    "value" : "DELETE test:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "307004ffa8fc4e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031209037,
+        "stop" : 1633031210769,
+        "duration" : 1732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca8c8429213a973e.json",
+  "parameterValues" : [ ]
+}

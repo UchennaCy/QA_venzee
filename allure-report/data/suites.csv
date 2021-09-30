@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 30 20:50:10 WAT 2021","Thu Sep 30 20:50:12 WAT 2021","2112","","GET tests:","","GET tests:","Verify a successful call","Verify a successful call",""
+"passed","Thu Sep 30 20:50:16 WAT 2021","Thu Sep 30 20:50:17 WAT 2021","739","","PUT  test:","","PUT  test:","Put a transaction","Put a transaction",""
+"passed","Thu Sep 30 20:50:13 WAT 2021","Thu Sep 30 20:50:15 WAT 2021","2166","","GET tests:","","GET tests:","Verify getting a single user","Verify getting a single user",""
+"passed","Thu Sep 30 20:50:15 WAT 2021","Thu Sep 30 20:50:16 WAT 2021","768","","POST test:","","POST test:","Verify creating a new transaction","Verify creating a new transaction",""
+"passed","Thu Sep 30 20:50:07 WAT 2021","Thu Sep 30 20:50:10 WAT 2021","2585","","DELETE test:","","DELETE test:","Verify deleting a user","Verify deleting a user",""
+"passed","Thu Sep 30 20:50:12 WAT 2021","Thu Sep 30 20:50:13 WAT 2021","717","","GET tests:","","GET tests:","Verify a not found call","Verify a not found call",""

@@ -1,0 +1,159 @@
+{
+  "uid" : "a5898b0c611c4e8",
+  "name" : "Verify getting a single user",
+  "fullName" : "GET tests:.Verify getting a single user",
+  "historyId" : "8802b9dfd2f967f8a9cfc8c1ab9e2af6",
+  "time" : {
+    "start" : 1633031212587,
+    "stop" : 1633031213326,
+    "duration" : 739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/30\"",
+      "time" : {
+        "start" : 1633031212589,
+        "stop" : 1633031213325,
+        "duration" : 736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"30\", \"30\"",
+      "time" : {
+        "start" : 1633031213325,
+        "stop" : 1633031213325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 200, 200",
+      "time" : {
+        "start" : 1633031213325,
+        "stop" : 1633031213325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"type 2\", \"type 2\"",
+      "time" : {
+        "start" : 1633031213325,
+        "stop" : 1633031213325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"758.67\", \"758.67\"",
+      "time" : {
+        "start" : 1633031213325,
+        "stop" : 1633031213325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"invoice yola at macaroni - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\", \"invoice yola at macaroni - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\"",
+      "time" : {
+        "start" : 1633031213325,
+        "stop" : 1633031213325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"30\", \"30\"",
+      "time" : {
+        "start" : 1633031213326,
+        "stop" : 1633031213326,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testClass",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify getting a single user"
+  }, {
+    "name" : "package",
+    "value" : "GET tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5898b0c611c4e8.json",
+  "parameterValues" : [ ]
+}

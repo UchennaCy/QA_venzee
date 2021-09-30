@@ -1,0 +1,144 @@
+{
+  "uid" : "60379a83a369875d",
+  "name" : "Put a transaction",
+  "fullName" : "PUT  test:.Put a transaction",
+  "historyId" : "aa4ee7380dbf0941338ead6cfcd048c3",
+  "time" : {
+    "start" : 1633031214296,
+    "stop" : 1633031215700,
+    "duration" : 1404
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send put request \"/67\", {\"description\":\"invoice yola at macaroni - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\",\"amount\":\"758.67\",\"type\":\"type 2\"}",
+      "time" : {
+        "start" : 1633031214298,
+        "stop" : 1633031215700,
+        "duration" : 1402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 200, 200",
+      "time" : {
+        "start" : 1633031215700,
+        "stop" : 1633031215700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"type 2\", \"type 2\"",
+      "time" : {
+        "start" : 1633031215700,
+        "stop" : 1633031215700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"758.67\", \"758.67\"",
+      "time" : {
+        "start" : 1633031215700,
+        "stop" : 1633031215700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"invoice yola at macaroni - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\", \"invoice yola at macaroni - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\"",
+      "time" : {
+        "start" : 1633031215700,
+        "stop" : 1633031215700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"67\", \"67\"",
+      "time" : {
+        "start" : 1633031215700,
+        "stop" : 1633031215700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PUT  test:"
+  }, {
+    "name" : "testClass",
+    "value" : "PUT  test:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Put a transaction"
+  }, {
+    "name" : "package",
+    "value" : "PUT  test:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60379a83a369875d.json",
+  "parameterValues" : [ ]
+}

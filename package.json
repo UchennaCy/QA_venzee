@@ -1,0 +1,35 @@
+{
+    "name": "QA_Venzee",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "codeceptjs run",
+        "codeceptjs": "codeceptjs run --steps",
+        "generate-report": "allure generate output",
+        "serve-report": "allure serve output",
+        "api-load-test": "k6 run load-tests/scenario-1.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@codeceptjs/configure": "^0.7.0",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.6",
+        "codeceptjs": "^3.1.2",
+        "eslint": "^7.32.0",
+        "eslint-plugin-codeceptjs": "^1.1.0",
+        "playwright": "^1.15.0",
+        "ts-node": "^10.2.1",
+        "typescript": "^4.4.3"
+    },
+    "dependencies": {
+        "@types/node": "^16.10.2",
+        "codeceptjs-assert": "0.0.5",
+        "codeceptjs-expectwrapper": "^1.0.2",
+        "expect": "^27.2.4",
+        "allure": "0.0.0",
+        "allure-commandline": "^2.13.0"
+    }
+}

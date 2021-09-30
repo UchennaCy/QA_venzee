@@ -1,0 +1,99 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "DELETE test:",
+    "children" : [ {
+      "name" : "Verify deleting a user",
+      "uid" : "ca8c8429213a973e",
+      "parentUid" : "394af8805f02861280c98f0e816c5e46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031407991,
+        "stop" : 1633031410576,
+        "duration" : 2585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "394af8805f02861280c98f0e816c5e46"
+  }, {
+    "name" : "GET tests:",
+    "children" : [ {
+      "name" : "Verify a successful call",
+      "uid" : "1f7b5caa863bfe3c",
+      "parentUid" : "6a938f534e0b325b6b2836ba73aa32ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031410586,
+        "stop" : 1633031412698,
+        "duration" : 2112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify a not found call",
+      "uid" : "d2029091c727c4b4",
+      "parentUid" : "6a938f534e0b325b6b2836ba73aa32ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031412699,
+        "stop" : 1633031413416,
+        "duration" : 717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify getting a single user",
+      "uid" : "268fd0a231297b80",
+      "parentUid" : "6a938f534e0b325b6b2836ba73aa32ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031413417,
+        "stop" : 1633031415583,
+        "duration" : 2166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6a938f534e0b325b6b2836ba73aa32ab"
+  }, {
+    "name" : "POST test:",
+    "children" : [ {
+      "name" : "Verify creating a new transaction",
+      "uid" : "23ce4f5961a4aae6",
+      "parentUid" : "cf02f3700828ce27e2878137d0fc7b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031415587,
+        "stop" : 1633031416355,
+        "duration" : 768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cf02f3700828ce27e2878137d0fc7b2b"
+  }, {
+    "name" : "PUT  test:",
+    "children" : [ {
+      "name" : "Put a transaction",
+      "uid" : "6dba0912de4f4775",
+      "parentUid" : "d4f88456a213b7104ee79134c39a5044",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031416358,
+        "stop" : 1633031417097,
+        "duration" : 739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d4f88456a213b7104ee79134c39a5044"
+  } ]
+}

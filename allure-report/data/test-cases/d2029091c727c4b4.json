@@ -1,0 +1,94 @@
+{
+  "uid" : "d2029091c727c4b4",
+  "name" : "Verify a not found call",
+  "fullName" : "GET tests:.Verify a not found call",
+  "historyId" : "6ab3d9f1cca08ea8842997de60fa0be1",
+  "time" : {
+    "start" : 1633031412699,
+    "stop" : 1633031413416,
+    "duration" : 717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/9000\"",
+      "time" : {
+        "start" : 1633031412700,
+        "stop" : 1633031413416,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 404, 404",
+      "time" : {
+        "start" : 1633031413416,
+        "stop" : 1633031413416,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testClass",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a not found call"
+  }, {
+    "name" : "package",
+    "value" : "GET tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ba90bf63801375bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633031211711,
+        "stop" : 1633031212586,
+        "duration" : 875
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2029091c727c4b4.json",
+  "parameterValues" : [ ]
+}

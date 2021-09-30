@@ -1,0 +1,61 @@
+[ {
+  "uid" : "1f7b5caa863bfe3c",
+  "name" : "Verify a successful call",
+  "time" : {
+    "start" : 1633031410586,
+    "stop" : 1633031412698,
+    "duration" : 2112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dba0912de4f4775",
+  "name" : "Put a transaction",
+  "time" : {
+    "start" : 1633031416358,
+    "stop" : 1633031417097,
+    "duration" : 739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "268fd0a231297b80",
+  "name" : "Verify getting a single user",
+  "time" : {
+    "start" : 1633031413417,
+    "stop" : 1633031415583,
+    "duration" : 2166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23ce4f5961a4aae6",
+  "name" : "Verify creating a new transaction",
+  "time" : {
+    "start" : 1633031415587,
+    "stop" : 1633031416355,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca8c8429213a973e",
+  "name" : "Verify deleting a user",
+  "time" : {
+    "start" : 1633031407991,
+    "stop" : 1633031410576,
+    "duration" : 2585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2029091c727c4b4",
+  "name" : "Verify a not found call",
+  "time" : {
+    "start" : 1633031412699,
+    "stop" : 1633031413416,
+    "duration" : 717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,144 @@
+{
+  "uid" : "b8bb6a3bb31d9d5d",
+  "name" : "Verify creating a new transaction",
+  "fullName" : "POST test:.Verify creating a new transaction",
+  "historyId" : "a4047dc67a10d1b31cd3b9d2249758d5",
+  "time" : {
+    "start" : 1633031213330,
+    "stop" : 1633031214293,
+    "duration" : 963
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send post request \"/\", {\"description\":\"invoice transaction at Yundt - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\",\"amount\":\"758.67\",\"type\":\"type 2\"}",
+      "time" : {
+        "start" : 1633031213333,
+        "stop" : 1633031214293,
+        "duration" : 960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 201, 201",
+      "time" : {
+        "start" : 1633031214293,
+        "stop" : 1633031214293,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"type 2\", \"type 2\"",
+      "time" : {
+        "start" : 1633031214293,
+        "stop" : 1633031214293,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"758.67\", \"758.67\"",
+      "time" : {
+        "start" : 1633031214293,
+        "stop" : 1633031214293,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"invoice transaction at Yundt - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\", \"invoice transaction at Yundt - Hegmann using card ending with ***0221 for NAD 985.32 in account ***04689975\"",
+      "time" : {
+        "start" : 1633031214293,
+        "stop" : 1633031214293,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal \"87\", \"87\"",
+      "time" : {
+        "start" : 1633031214293,
+        "stop" : 1633031214293,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "POST test:"
+  }, {
+    "name" : "testClass",
+    "value" : "POST test:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify creating a new transaction"
+  }, {
+    "name" : "package",
+    "value" : "POST test:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8bb6a3bb31d9d5d.json",
+  "parameterValues" : [ ]
+}

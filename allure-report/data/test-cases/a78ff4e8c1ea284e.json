@@ -1,0 +1,84 @@
+{
+  "uid" : "a78ff4e8c1ea284e",
+  "name" : "Verify a successful call",
+  "fullName" : "GET tests:.Verify a successful call",
+  "historyId" : "841ef5670147312490167e8127d20361",
+  "time" : {
+    "start" : 1633031210779,
+    "stop" : 1633031211710,
+    "duration" : 931
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/\"",
+      "time" : {
+        "start" : 1633031210781,
+        "stop" : 1633031211709,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I assert equal 200, 200",
+      "time" : {
+        "start" : 1633031211710,
+        "stop" : 1633031211710,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testClass",
+    "value" : "GET tests:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a successful call"
+  }, {
+    "name" : "package",
+    "value" : "GET tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a78ff4e8c1ea284e.json",
+  "parameterValues" : [ ]
+}
